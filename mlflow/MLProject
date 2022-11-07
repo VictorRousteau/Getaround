@@ -1,0 +1,19 @@
+# Name of the experiment (and the new docker image that MLFlow will create when running the file)
+name: ga-predictor
+
+docker_env:
+  # Name of the image we'll be running a container from
+  image: rousteau-getaround-mlflow
+  # Set environment variables
+  environment: [
+      "MLFLOW_TRACKING_URI", 
+      "AWS_ACCESS_KEY_ID",
+      "AWS_SECRET_ACCESS_KEY",
+      "BACKEND_STORE_URI",
+      "ARTIFACT_ROOT"
+    ]
+    
+entry_points:
+  main:
+    # Command that will be run when running that file 
+    command: "python model.py"

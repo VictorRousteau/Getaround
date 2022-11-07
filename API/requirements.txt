@@ -1,0 +1,10 @@
+boto3 
+numpy
+pandas 
+gunicorn
+sklearn 
+mlflow 
+psycopg2-binary
+fastapi
+uvicorn
+pydantic

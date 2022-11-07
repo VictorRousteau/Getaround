@@ -1,0 +1,4 @@
+artifact_location: file:///mnt/wsl/docker-desktop-bind-mounts/Ubuntu/05f33d5e2edfa8aeb0a5cb6eed1f304f363e3f0543d31a7b722592c8b4af6d12/mlruns/0
+experiment_id: '0'
+lifecycle_stage: active
+name: Default
